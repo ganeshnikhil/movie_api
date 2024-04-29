@@ -11,6 +11,47 @@ This Flask application provides a web API for searching and retrieving movie dat
 * Retrieve movie details (ID, name, and summary) by movie name or ID.
 * Handle cases where movies are not found and return appropriate error messages.
 
+
+**Movie Search with Fuzzy Matching**
+
+This Python script searches and retrieves movie data from a CSV file. It supports exact and fuzzy (misspelled) searches and measures execution time.
+
+**Features:**
+
+* Reads movie data from CSV (ID, Name, Summary)
+* Sorts by name (case-insensitive)
+* Finds movies by exact name (binary search)
+* Performs fuzzy matching with `fuzzywuzzy`
+* Returns movie details (ID, Name, Summary) or empty string (not found)
+* Measures execution time of search function
+
+**Installation:**
+
+1. Python (version 3.x recommended)
+2. `pip install fuzzywuzzy`
+
+**Usage:**
+
+1. Update CSV file path if needed (`"database/film.csv"`)
+2. Run: `python your_script_name.py` (prints search function execution time)
+
+**CSV Example:**
+
+```csv
+ID,Name,Summary
+1,The Shawshank Redemption,A timeless story...
+2,The Godfather,Epic saga of a family...
+```
+
+**Further Enhancements:**
+
+* User Input for Searches
+* Error Handling
+* CSV Writing (optional)
+
+
+
+
 **Installation**
 
 1. **Prerequisites:** Ensure you have Python (version 3.x recommended) and pip (the package installer) installed on your system. You can verify this by running `python --version` and `pip --version` in your terminal.
