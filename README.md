@@ -27,8 +27,10 @@ This Python script searches and retrieves movie data from a CSV file. It support
 
 **Installation:**
 
-1. Python (version 3.x recommended)
-2. `pip install -r requirements.txt`
+1. **Prerequisites:** Ensure you have Python (version 3.x recommended) and pip (the package installer) installed on your system. You can verify this by running `python --version` and `pip --version` in your terminal.
+2. **Create a virtual environment (recommended):** This helps isolate project dependencies and avoid conflicts. You can use tools like `venv` or `virtualenv` for this.
+3. Python (version 3.x recommended)
+4. `pip install -r requirements.txt`
 
 **Usage:**
 
@@ -48,15 +50,6 @@ ID,Name,Summary
 * User Input for Searches
 * Error Handling
 * CSV Writing (optional)
-
-
-
-
-**Installation**
-
-1. **Prerequisites:** Ensure you have Python (version 3.x recommended) and pip (the package installer) installed on your system. You can verify this by running `python --version` and `pip --version` in your terminal.
-2. **Create a virtual environment (recommended):** This helps isolate project dependencies and avoid conflicts. You can use tools like `venv` or `virtualenv` for this.
-3. **Install dependencies:** Navigate to your project directory and run `pip install Flask`.
 
 **Usage**
 
