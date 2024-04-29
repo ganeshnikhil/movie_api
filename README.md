@@ -28,7 +28,7 @@ This Python script searches and retrieves movie data from a CSV file. It support
 **Installation:**
 
 1. Python (version 3.x recommended)
-2. `pip install fuzzywuzzy`
+2. `pip install -r requirements.txt`
 
 **Usage:**
 
