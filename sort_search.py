@@ -108,30 +108,3 @@ if __name__ == "__main__":
    print(measure_time())
    
    
-   
-#print(measure_time())
-#print(prob_movie_name("the matrix","database/film.csv"))
-#header, data = sort_csv_data('film_1.csv')
-#write_csv_data("film_2.csv" , header , data)
-# for i , val in enumerate(sort_csv_data("film_1.csv")):
-#    print( i , val[0])
-# #sort_csv_data("film.csv")
-# value = find_movie_name("the matrix", "database/film.csv")
-# if value:
-#    if len(value) == 3:
-#       id , name , summary = value 
-      
-#       result = {
-#          'ID':int(id),
-#          'Name':name,
-#          'Summary':summary
-#       }
-#       print(result)
-#    else:
-#       print(value)
-# else:
-#    print("Data not found ....")
-
-# # header , data = sort_csv_data('film.csv')
-# # write_csv_data('film_1.csv',header , data)
-
